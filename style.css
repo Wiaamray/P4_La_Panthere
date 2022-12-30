@@ -180,7 +180,7 @@ color:rgba(0,0,0,.6)}
 
 .d-bloc .panel .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover,.l-bloc .navbar-brand:hover,.l-bloc a:hover .icon-sm,.l-bloc a:hover .icon-md,.l-bloc a:hover .icon-lg,.l-bloc a:hover .icon-xl,.l-bloc h1 a:hover,.l-bloc h2 a:hover,.l-bloc h3 a:hover,.l-bloc h4 a:hover,.l-bloc h5 a:hover,.l-bloc h6 a:hover,.l-bloc p a:hover
 {
-	color: #fff;}
+	color: #000000;}
 
 .l-bloc .navbar-toggle .icon-bar
 {
@@ -260,7 +260,7 @@ text-align:inherit}
 
 .nav>li a:hover,.nav>li a:focus
 {
-	background:#f3976c;
+background:#F3976C;
 color:#fff}
 
 .navbar-toggle
@@ -651,7 +651,7 @@ font-size:18px}
 
 .tight-width-whitespace
 {
-	max-width:600px;
+max-width:800px;
 margin:auto auto auto auto}
 
 .h1
@@ -677,7 +677,8 @@ font-family:"Open Sans"}
 h2
 {
 	font-size:22px;
-line-height:1.4em}
+line-height:1.4em;
+color:#575757;}
 
 h3
 {
@@ -686,6 +687,15 @@ h3
 	font-weight:700;
 color:#333333!important}
 
+.col-xs-12 p{
+	font-size: 22px;
+	font-style: italic;
+	color: #575757;
+}
+
+.col-xs-12 cite{
+	font-size: 18px;
+}
 .med-width-whitespace
 {
 	max-width:800px;
@@ -712,6 +722,9 @@ color:#FFFFFF!important}
 .blue{
   color:#364577!important}
 
+  .black{
+	color: #000000;
+  }
 .portfolio-thumb
 {
 	width:100%;
@@ -723,13 +736,18 @@ margin-bottom:24px}
 	margin-bottom:44px;
 margin-top:50px}
 
+.col-sm-6 img {
+    width: 100%;
+    height: 100%;
+}
+
 .avatar
 {
 box-shadow:0 4px 9px rgba(0,0,0,.3)}
 
 .black-background
 {
-	background-color:rgba(165,147,99,.7);
+background-color:rgba(34, 31, 20, 0.7);
 padding:40px 40px 40px 40px}
 
 .bold-link
@@ -755,18 +773,18 @@ color:#fff!important}
 
 .txt-color
 {
-	color:#ffff!important;
+	color:#f3976c!important;
 font-weight:600}
 
 .btn-atomic-tangerine
 {
 	background:#F3976C;
-color:#FFFFFF!important}
+	color:#000000!important}
 
 .btn-atomic-tangerine:hover
 {
 	background:#c27956!important;
-color:#FFFFFF!important}
+color:#000000!important}
 
 .ltc-white
 {
